@@ -1,16 +1,17 @@
+.
 .formularioContacto{
-    width: 450px;
-    background-color: rgb(149, 59, 7);
-    padding: $tamano-cuarenta;
-    margin: auto;
-    margin-top: 100px;
-    padding-bottom: 130px;
-    margin-top: 0px;
-    border-radius: 4px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: $color-blanco;
-    box-shadow: 7px 13px 37px #361808;
-   }
+  width: 450px;
+  background-color: rgb(149, 59, 7);
+  padding: 40px;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 130px;
+  margin-top: 0px;
+  border-radius: 4px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  box-shadow: 7px 13px 37px #361808;
+ }
    
    .formularioContacto h1{
     font-size: 22px;
@@ -31,7 +32,7 @@
    .formularioContacto p{
     height: $tamano-cuarenta;
     text-align: $text-align;
-    font-size: 18px;
+    font-size: 16px;
     line-height: $tamano-cuarenta;
    }
 
@@ -52,7 +53,7 @@
     padding: 12px;
     color: $color-blanco;
     margin: 16px 0;
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .tituloDeContacto{

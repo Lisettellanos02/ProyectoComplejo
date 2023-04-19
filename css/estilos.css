@@ -18,10 +18,12 @@
      }
 
      footer{ 
-    background-color: #363534;
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #4a4948;
     padding-top: 35px;
     position: absolute;
-    bottom: 0;
+    width: 100%;
   
     }
 
@@ -240,7 +242,7 @@
     height: 40px;
     text-align: center;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 30px;
    }
 
    .formularioContacto a{

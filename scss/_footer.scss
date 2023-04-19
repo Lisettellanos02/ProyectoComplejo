@@ -1,0 +1,23 @@
+footer{ 
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #4a4948;
+    padding-top: 35px;
+    position: absolute;
+    width: 100%;
+  
+    }
+
+.logoFooter{
+    display: inline-block;
+    animation: float infinite 4s ease-in-out; 
+      }  
+
+.logoFooter{
+    justify-content: $justify-center;
+    width: $tamano-cuarentaycinco ;
+    height:$tamano-cuarentaycinco ;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    }
+    
