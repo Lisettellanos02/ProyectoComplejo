@@ -191,22 +191,30 @@
    }
 
    .imgNosotros{
-    width: 300px;
+    width: 80px;
     height: 250px;
     border: 3px solid rgb(118, 37, 0);
-    
+    object-fit: cover;
+   
    }
 
    .centrarVideo{
-    display: flex;
+    display: flex; 
+    margin-left: 50px;
+    margin-top: 50px;
     justify-content: center;
-    padding-bottom: 20px;
+    text-align: center;
    }
 
-   .centrarText{
+   .mapa{
     text-align: center;
-    padding-top: 20px;
+    margin-right: 50px;
+    margin-top: 100px;
+    
    }
+
+   
+
 
    .formularioContacto{
     width: 450px;
@@ -307,6 +315,51 @@
         padding-left: 50px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        }
+
+    .pagError{
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-height: 100vh;
+      }
+
+      .error{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        
+      }
+      .error h1{
+       font-size: 150px;
+       margin: 0;
+       font-weight: 900;
+       letter-spacing: 10px;
+       background: url(../assets/img/madera.jpg) center no-repeat; 
+       -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+
+      }
+
+      .error a{
+        text-decoration: none;
+        background: #291301;
+        color: #fff;
+        padding: 12px 24px;
+        display: inline-block;
+        border-radius: 25px;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: 0.4s;
+      }
+
+      .error a:hover{
+        background-color: #a05f2b;
+      }
+    
+
+
 
 
 
