@@ -212,13 +212,10 @@
     margin-top: 100px;
     
    }
-
    
-
-
    .formularioContacto{
     width: 450px;
-    background-color: rgb(149, 59, 7);
+    background-color: rgba(164, 67, 11, 0.671);
     padding: 40px;
     margin: auto;
     margin-top: 100px;
@@ -227,7 +224,7 @@
     border-radius: 4px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    box-shadow: 7px 13px 37px #361808;
+    box-shadow: 7px 13px 37px #412004;
    }
    
    .formularioContacto h1{
@@ -250,7 +247,7 @@
     height: 40px;
     text-align: center;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 40px;
    }
 
    .formularioContacto a{
@@ -265,12 +262,13 @@
 
    .formularioContacto .boton{
     width: 100%;
-    background: #291301;
+    background: #1e1bd6;
     border: none;
     padding: 12px;
     color: #ffffff;
     margin: 16px 0;
     font-size: 16px;
+    margin-top: 30px;
   }
 
    .colorConNosotros{

@@ -74,17 +74,20 @@
          </div>
          </section>
 
-        <section class="formularioContacto ">
+          <form class="formularioContacto" action="error404.html"> 
             <h1>CONTACTANOS</h1>
+          <div class="mb-3">
             <input class="controls" type="text" name="Escriba su Nombre" placeholder="Escriba su Nombre">
             <input class="controls" type="text" name="Escriba su Apellido" placeholder="Escriba su Apellido">
             <input class="controls" type="email" name="Escriba su Correo" placeholder="Escriba tu Correo" required>
             <input class="controls" type="password" name="" placeholder="Escriba tu Contraseña" required>
             <textarea class="controls" placeholder="Comentario"></textarea>
+            <input type="reset" value="Limpiar Formulario">
             <p>Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
-            <input class="titulo animate__animated animate__animate__pulse animate__infinite animate__slow animate__delay-2s boton" type="submit" value="Registrar">
-            <p><a href="#">¿Ya tengo cuenta?</a></p>
-          </section>
+          <div class="mb-3">
+            <button class="titulo animate__animated animate__animate__pulse animate__infinite animate__slow animate__delay-2s boton" type="submit">Enviar </button>
+          </div>
+        </form>
 
     </main>
        <footer class="container-fluid">
