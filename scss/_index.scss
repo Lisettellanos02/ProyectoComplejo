@@ -1,0 +1,15 @@
+
+.galeriaIndex{
+    margin: 0;
+    padding: $tamano-veinte;
+}
+
+.galeriaIndex img{
+    width: $tamano-cien;
+    height: 250px;
+    object-fit: $object-fit;
+}
+
+.galeriaIndex img:hover{
+     border: 5px solid $color-blanco;
+}

@@ -4,10 +4,45 @@
   box-sizing: border-box;
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.parrafo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.subtitulo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 33px;
+}
+
+.colorNav {
+  background-color: #291301;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 300ms ease;
+}
+
+.nav-item :hover {
+  background-color: rgb(206, 184, 161);
+}
+
 footer {
   flex-shrink: 0;
   text-align: center;
-  background-color: #4a4948;
+  background-color: rgba(100, 52, 12, 0.6588235294);
   padding-top: 35px;
   position: absolute;
   width: 100%;
@@ -26,6 +61,22 @@ footer {
   margin-bottom: 15px;
 }
 
+.galeriaIndex {
+  margin: 0;
+  padding: 20px;
+}
+
+.galeriaIndex img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.galeriaIndex img:hover {
+  border: 5px solid #fff;
+}
+
 .galeria {
   height: 80vh;
   -o-object-fit: cover;
@@ -42,16 +93,106 @@ footer {
      object-fit: cover;
 }
 
-.formularioContacto {
-  width: 450px;
-  background-color: rgb(149, 59, 7);
-  padding: 40px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+.fondo {
+  background: linear-gradient(to right);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.borroso {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  height: 100%;
+}
+
+.comentarios {
+  margin: 20px 0;
+}
+
+.form_comentarios textarea {
+  width: 100%;
+  height: 84px;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 84px;
+  max-height: 300px;
+  padding: 10px;
+  line-height: 30px;
+  border: 1px solid #4b65d1;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #4b65d1;
+  border-radius: 0;
   color: #fff;
-  box-shadow: 7px 13px 37px #361808;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 9px rgb(0, 0, 0);
+}
+
+.media {
+  border-top: 1px solid #3e3c3c;
+  padding-top: 20px;
+}
+
+.media img {
+  margin-right: 20px;
+}
+
+.media .nombre {
+  font-size: 12px;
+  color: #4b65d1;
+  margin-bottom: 0;
+}
+
+.media .nombre span {
+  font-size: 10px;
+  color: #464646;
+  padding-left: 10px;
+}
+
+.media .comentario {
+  margin-top: 10px;
+}
+
+.media .botones {
+  margin-bottom: 10px;
+}
+
+.media .botones a {
+  color: #464646;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.comentario {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.justificar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding-left: 90px;
+  padding-top: 20px;
 }
 
 .formularioContacto h1 {
@@ -107,4 +248,45 @@ footer {
   display: flex;
   padding-left: 40px;
   color: rgb(149, 59, 7);
+}
+
+.pagError {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.error {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.error h1 {
+  font-size: 150px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 10px;
+  background: url(../assets/img/madera.jpg) center no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.error a {
+  text-decoration: none;
+  background: #291301;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.error a:hover {
+  background-color: #a05f2b;
 }/*# sourceMappingURL=estilos.css.map */

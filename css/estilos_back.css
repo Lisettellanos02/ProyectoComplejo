@@ -1,0 +1,335 @@
+@import url();
+
+@keyframes float { 
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+      }
+
+    100%{
+        transform: translateY(0);
+        }
+   }
+
+     main { 
+    background-color: rgb(247, 210, 158);
+     }
+
+     footer{ 
+    background-color: #f4e2d3;
+    padding-top: 35px;
+    position: absolute;
+    bottom: 0;
+  
+    }
+
+  .fondo{
+    background:linear-gradient(to right); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+      }
+
+ .borroso{
+    backdrop-filter: blur(5px);;
+    height: 100%;
+ }
+
+ .colorNav{
+    background-color: #291301;
+ }
+
+ .nav-link{
+     font-size: 1.3rem;
+     font-family: Arial, Helvetica, sans-serif;   
+     transition: all 300ms ease; 
+ }
+
+ .nav-item :hover{
+   background-color: rgb(206, 184, 161);   
+}
+
+ .parrafo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 18px;  
+}
+
+.tituloDeContacto{
+  padding-top:50px ;
+}
+
+.subtitulo{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 33px;
+}
+
+.comentario{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .justificar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria{
+  height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-item{
+  height: 70vh;
+
+}
+.carousel-item img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.galeriaIndex{
+    margin: 0;
+    padding: 20px;
+}
+
+.galeriaIndex img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.galeriaIndex img:hover{
+     border: 5px solid #fff;
+}
+
+.pagOpinion{
+    background-color:  rgb(247, 222, 188);
+}
+
+.comentarios{
+    margin: 20px 0;
+}
+
+.form_comentarios textarea{
+    width: 100%;
+    height: 84px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 84px;
+    max-height: 300px;
+    padding: 10px;
+    line-height: 30px;
+    border: 1px solid #4b65d1;
+    margin-bottom: 20px;
+}
+
+.form_comentarios .btn{
+    background-color: #4b65d1;
+    border-radius: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form_comentarios .btn:hover {
+    box-shadow: 0px 0px 9px rgba(0,0,0.35);
+  }
+
+  .media{
+    border-top: 1px solid #3e3c3c;
+    padding-top: 20px;
+  }
+
+  .media img{
+    margin-right: 20px;
+  }
+
+  .media .nombre{
+    font-size: 12px;
+    color:#4b65d1;
+    margin-bottom: 0;
+  }
+
+  .media .nombre span{
+    font-size: 10px;
+    color:  #464646;
+    padding-left: 10px;
+  }
+
+  .media .comentario{
+    margin-top: 10px;
+  }
+
+  .media .botones {
+    margin-bottom: 10px;
+  }
+
+
+  .media .botones a{
+    color: #464646;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 20px;
+   }
+   
+   .contenedor{
+    display: flex;
+    justify-content: center;
+    padding-left: 90px;
+    padding-top: 20px;    
+   }
+
+
+   .formularioContacto{
+    width: 450px;
+    background-color: rgb(149, 59, 7);
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 130px;
+    margin-top: 0px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    box-shadow: 7px 13px 37px #361808;
+   }
+   
+   .formularioContacto h1{
+    font-size: 22px;
+    margin-bottom: 30px;
+   }
+
+   .controls{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid#392e2e; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+   }
+
+   .formularioContacto p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+   }
+
+   .formularioContacto a{
+    color: #ffffff;
+    text-decoration: none;
+   }
+
+   .formularioContacto a :hover{
+    color: #ffffff;
+     text-decoration: underline;
+   }
+
+   .formularioContacto .boton{
+    width: 100%;
+    background: #291301;
+    border: none;
+    padding: 12px;
+    color: #ffffff;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+   .colorConNosotros{
+    display: flex;
+    padding-left: 40px;
+    color: rgb(149, 59, 7);;
+    
+   }
+
+   .logoFooter{
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    }
+
+   .tituloComplejo{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 45px;
+      padding-left: 10px;
+      }
+
+   .logoPrincipal{
+      display: flex; 
+      justify-content: center;
+      padding-top: 30px;
+      object-fit: cover;
+      }
+
+
+    .logoFooter{
+        display: inline-block;
+        animation: float infinite 4s ease-in-out;
+          }
+    
+    .tituloDesayuno{
+       margin-top: 20px;
+      }
+
+    .tituloDeContacto{
+        padding-left: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+
+   
+       .pagError{
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-height: 100vh;
+      }
+
+      .error{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        
+      }
+      .error h1{
+       font-size: 150px;
+       margin: 0;
+       font-weight: 900;
+       letter-spacing: 10px;
+       background: url(../assets/img/madera.jpg) center no-repeat; 
+       -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+
+      }
+
+      .error a{
+        text-decoration: none;
+        background: #291301;
+        color: #fff;
+        padding: 12px 24px;
+        display: inline-block;
+        border-radius: 25px;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: 0.4s;
+      }
+
+      .error a:hover{
+        background-color: #a05f2b;
+      }
+    
+
