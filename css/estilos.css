@@ -18,7 +18,7 @@
       width: 100%;
    }
   }
-  @media(max-width:500px){
+  @media(max-width:300px){
     .tamañoError{
       width: 100%;
    }
