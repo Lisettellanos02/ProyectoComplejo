@@ -18,34 +18,21 @@
      }
 
      footer{ 
-    background-color: #f4e2d3;
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #eceae8;
     padding-top: 35px;
     position: absolute;
-    bottom: 0;
+    width: 100%;
   
     }
 
-  .fondo{
-    background:linear-gradient(to right); 
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-      }
-
- .borroso{
-    backdrop-filter: blur(5px);;
-    height: 100%;
- }
-
- .colorNav{
-    background-color: #291301;
- }
-
+  
  .nav-link{
      font-size: 1.3rem;
-     font-family: Arial, Helvetica, sans-serif;   
-     transition: all 300ms ease; 
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+     transition: all 300ms ease;
+     
  }
 
  .nav-item :hover{
@@ -62,8 +49,8 @@
 }
 
 .subtitulo{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 33px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
 }
 
 .comentario{
@@ -112,10 +99,6 @@
      border: 5px solid #fff;
 }
 
-.pagOpinion{
-    background-color:  rgb(247, 222, 188);
-}
-
 .comentarios{
     margin: 20px 0;
 }
@@ -133,14 +116,14 @@
     margin-bottom: 20px;
 }
 
-.form_comentarios .btn{
-    background-color: #4b65d1;
+  .btn{
+    background-color:#4b65d1; 
     border-radius: 0;
     color: #fff;
     margin-bottom: 20px;
 }
 
-.form_comentarios .btn:hover {
+  .btn:hover {
     box-shadow: 0px 0px 9px rgba(0,0,0.35);
   }
 
@@ -188,10 +171,10 @@
     padding-top: 20px;    
    }
 
-
+   
    .formularioContacto{
     width: 450px;
-    background-color: rgb(149, 59, 7);
+    background-color: rgba(164, 67, 11, 0.671);
     padding: 40px;
     margin: auto;
     margin-top: 100px;
@@ -200,7 +183,7 @@
     border-radius: 4px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    box-shadow: 7px 13px 37px #361808;
+    box-shadow: 7px 13px 37px #412004;
    }
    
    .formularioContacto h1{
@@ -232,18 +215,24 @@
    }
 
    .formularioContacto a :hover{
-    color: #ffffff;
+     color: #ffffff;
      text-decoration: underline;
    }
 
+
    .formularioContacto .boton{
     width: 100%;
-    background: #291301;
+    background: #4b65d1;
     border: none;
     padding: 12px;
     color: #ffffff;
     margin: 16px 0;
     font-size: 16px;
+    margin-top: 30px;
+  }
+  
+  .boton:hover {
+    box-shadow: 0px 0px 9px rgba(0,0,0.35);
   }
 
    .colorConNosotros{
@@ -262,8 +251,10 @@
     }
 
    .tituloComplejo{
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 45px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 2px;
+      font-weight: 800;
+      font-size: 50px;
       padding-left: 10px;
       }
 
@@ -279,18 +270,13 @@
         display: inline-block;
         animation: float infinite 4s ease-in-out;
           }
-    
-    .tituloDesayuno{
-       margin-top: 20px;
-      }
 
     .tituloDeContacto{
         padding-left: 50px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
        }
 
-   
-       .pagError{
+    .pagError{
         margin: 0;
         padding: 0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -300,7 +286,7 @@
       .error{
         width: 100%;
         position: absolute;
-        top: 50%;
+        top: 70%;
         transform: translateY(-50%);
         text-align: center;
         
@@ -331,5 +317,9 @@
       .error a:hover{
         background-color: #a05f2b;
       }
-    
 
+      .imgError{
+        margin-bottom: 20px;
+      }
+      
+    
